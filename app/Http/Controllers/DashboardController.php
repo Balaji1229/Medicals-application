@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Medicine;
 use App\Models\Sale;
 use App\Models\Customer;
+use App\Models\Token;
 use Carbon\Carbon;
 use Illuminate\View\View;
 
@@ -16,6 +17,13 @@ class DashboardController extends Controller
         $lowStockCount = Medicine::where('stock_quantity', '<', 10)->count();
         $todaySales = Sale::whereDate('sale_date', Carbon::today())->sum('grand_total');
         $totalCustomers = Customer::count();
+
+        $todayTokens = Token::today();
+        $tokenStats = [
+            'waiting' => (clone $todayTokens)->waiting()->count(),
+            'in_progress' => (clone $todayTokens)->where('status', 'in-progress')->count(),
+            'completed' => (clone $todayTokens)->where('status', 'completed')->count(),
+        ];
 
         $recentSales = Sale::with(['customer', 'user'])
             ->latest()
@@ -34,7 +42,8 @@ class DashboardController extends Controller
             'todaySales',
             'totalCustomers',
             'recentSales',
-            'lowStockMedicines'
+            'lowStockMedicines',
+            'tokenStats'
         ));
     }
 }

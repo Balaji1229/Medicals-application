@@ -27,6 +27,29 @@
                 </div>
             </div>
 
+            <!-- Token Stats -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg p-6">
+                    <div class="text-sm text-gray-500">Tokens Waiting</div>
+                    <div class="text-2xl font-bold text-amber-600">{{ $tokenStats['waiting'] }}</div>
+                </div>
+                <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg p-6">
+                    <div class="text-sm text-gray-500">Tokens In Progress</div>
+                    <div class="text-2xl font-bold text-teal-600">{{ $tokenStats['in_progress'] }}</div>
+                </div>
+                <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg p-6">
+                    <div class="text-sm text-gray-500">Tokens Completed Today</div>
+                    <div class="text-2xl font-bold text-emerald-600">{{ $tokenStats['completed'] }}</div>
+                </div>
+            </div>
+
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg p-6">
+                <div class="flex justify-between items-center">
+                    <h3 class="text-lg font-semibold text-gray-800">OP Token System</h3>
+                    <a href="{{ route('admin.tokens.index') }}" class="text-teal-600 hover:text-teal-800 font-medium">Manage Tokens →</a>
+                </div>
+            </div>
+
             <!-- Recent Sales -->
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 border-b border-gray-200">

@@ -4,6 +4,8 @@ namespace Database\Seeders;
 
 use App\Models\Category;
 use App\Models\Customer;
+use App\Models\Department;
+use App\Models\Doctor;
 use App\Models\Medicine;
 use App\Models\Supplier;
 use App\Models\User;
@@ -25,5 +27,8 @@ class DatabaseSeeder extends Seeder
         Supplier::factory(10)->create();
         Customer::factory(20)->create();
         Medicine::factory(50)->create();
+
+        Department::factory(8)->create();
+        Doctor::factory(12)->create();
     }
 }

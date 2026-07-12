@@ -21,6 +21,7 @@
                 <a href="{{ route('services') }}" class="nav-link text-slate-600 hover:text-teal-600 font-medium transition-colors {{ request()->routeIs('services') ? 'text-teal-600' : '' }}">Services</a>
                 <a href="{{ route('packages') }}" class="nav-link text-slate-600 hover:text-teal-600 font-medium transition-colors {{ request()->routeIs('packages') ? 'text-teal-600' : '' }}">Packages</a>
                 <a href="{{ route('contact') }}" class="nav-link text-slate-600 hover:text-teal-600 font-medium transition-colors {{ request()->routeIs('contact') ? 'text-teal-600' : '' }}">Contact Us</a>
+                <a href="{{ route('tokens.index') }}" class="nav-link text-slate-600 hover:text-teal-600 font-medium transition-colors {{ request()->routeIs('tokens.*') ? 'text-teal-600' : '' }}">OP Token</a>
 
                 <a href="{{ route('book-appointment') }}" class="inline-flex items-center px-5 py-2.5 btn-primary text-white rounded-full font-medium">
                     <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
@@ -46,6 +47,7 @@
             <a href="{{ route('services') }}" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-teal-600 hover:bg-teal-50">Services</a>
             <a href="{{ route('packages') }}" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-teal-600 hover:bg-teal-50">Packages</a>
             <a href="{{ route('contact') }}" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-teal-600 hover:bg-teal-50">Contact Us</a>
+            <a href="{{ route('tokens.index') }}" class="block px-3 py-2 rounded-md text-base font-medium text-slate-700 hover:text-teal-600 hover:bg-teal-50">OP Token</a>
             <a href="{{ route('book-appointment') }}" class="block px-3 py-2 rounded-md text-base font-medium text-white bg-teal-600 hover:bg-teal-700">Book Appointment</a>
         </div>
     </div>
