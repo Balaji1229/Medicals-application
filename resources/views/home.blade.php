@@ -174,6 +174,146 @@
     </div>
 </section>
 
+<!-- Alternating Content Sections -->
+
+<!-- Left Image, Right Content -->
+<section class="py-24 bg-slate-50 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="relative" data-aos="fade-right">
+                <div class="absolute -top-4 -left-4 w-full h-full bg-teal-200 rounded-3xl"></div>
+                <div class="relative bg-gradient-to-br from-teal-500 to-cyan-600 rounded-3xl p-12 min-h-[400px] flex items-center justify-center">
+                    <svg class="w-48 h-48 text-white/90 float-animation" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                </div>
+            </div>
+            <div data-aos="fade-left">
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-teal-100 text-teal-700 text-sm font-medium mb-4">Modern Pharmacy</div>
+                <h2 class="text-4xl font-bold text-slate-900 mb-6">Advanced Medical Solutions for <span class="gradient-text">Better Health</span></h2>
+                <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                    Our state-of-the-art pharmacy is equipped with the latest technology to ensure accurate prescriptions, genuine medicines, and personalized care for every patient.
+                </p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center text-slate-700"><svg class="w-5 h-5 text-teal-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Computerized prescription management</li>
+                    <li class="flex items-center text-slate-700"><svg class="w-5 h-5 text-teal-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Temperature-controlled medicine storage</li>
+                    <li class="flex items-center text-slate-700"><svg class="w-5 h-5 text-teal-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Automated refill reminders</li>
+                </ul>
+                <a href="{{ route('services') }}" class="inline-flex items-center px-6 py-3 btn-primary text-white rounded-full font-semibold">Explore Pharmacy</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Right Image, Left Content -->
+<section class="py-24 bg-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="order-2 lg:order-1" data-aos="fade-right">
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-cyan-100 text-cyan-700 text-sm font-medium mb-4">Home Healthcare</div>
+                <h2 class="text-4xl font-bold text-slate-900 mb-6">Healthcare That Comes to <span class="gradient-text">Your Doorstep</span></h2>
+                <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                    Skip the waiting room. Our certified healthcare professionals provide medical consultations, diagnostic sample collection, and elderly care services in the comfort of your home.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                    <div class="p-4 bg-slate-50 rounded-xl">
+                        <div class="text-2xl font-bold text-cyan-600 mb-1">500+</div>
+                        <div class="text-sm text-slate-600">Home Visits Monthly</div>
+                    </div>
+                    <div class="p-4 bg-slate-50 rounded-xl">
+                        <div class="text-2xl font-bold text-cyan-600 mb-1">98%</div>
+                        <div class="text-sm text-slate-600">Patient Satisfaction</div>
+                    </div>
+                </div>
+                <a href="{{ route('book-appointment') }}" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full font-semibold hover:shadow-lg transition-all">Book Home Care</a>
+            </div>
+            <div class="relative order-1 lg:order-2" data-aos="fade-left">
+                <div class="absolute -bottom-4 -right-4 w-full h-full bg-cyan-200 rounded-3xl"></div>
+                <div class="relative bg-gradient-to-br from-cyan-500 to-blue-600 rounded-3xl p-12 min-h-[400px] flex items-center justify-center">
+                    <svg class="w-48 h-48 text-white/90 float-animation" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Left Image, Right Content -->
+<section class="py-24 bg-slate-50 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="relative" data-aos="fade-right">
+                <div class="absolute -top-4 -left-4 w-full h-full bg-emerald-200 rounded-3xl"></div>
+                <div class="relative bg-gradient-to-br from-emerald-500 to-teal-600 rounded-3xl p-12 min-h-[400px] flex items-center justify-center">
+                    <svg class="w-48 h-48 text-white/90 float-animation" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+            </div>
+            <div data-aos="fade-left">
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-emerald-100 text-emerald-700 text-sm font-medium mb-4">Quality Assurance</div>
+                <h2 class="text-4xl font-bold text-slate-900 mb-6">Trusted Care You Can <span class="gradient-text">Rely On</span></h2>
+                <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                    Every medicine and service we provide goes through strict quality checks. We partner with certified manufacturers and maintain the highest standards of healthcare safety.
+                </p>
+                <div class="space-y-4 mb-8">
+                    <div class="flex items-start">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-100 flex items-center justify-center flex-shrink-0 mr-4">
+                            <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-slate-800">Certified Products</h4>
+                            <p class="text-slate-600 text-sm">All medicines are sourced from licensed suppliers.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-100 flex items-center justify-center flex-shrink-0 mr-4">
+                            <svg class="w-5 h-5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-slate-800">Secure & Private</h4>
+                            <p class="text-slate-600 text-sm">Your health records are protected and confidential.</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="{{ route('about') }}" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-500 to-teal-600 text-white rounded-full font-semibold hover:shadow-lg transition-all">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- More Grid View Section -->
+<section class="py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+            <h2 class="text-4xl font-bold text-slate-900 mb-4">Our Healthcare <span class="gradient-text">Facilities</span></h2>
+            <p class="text-lg text-slate-600">Modern infrastructure designed for patient comfort and care.</p>
+        </div>
+
+        @php
+        $facilities = [
+            ['icon' => 'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4', 'title' => 'In-Patient Wards', 'desc' => 'Comfortable rooms with 24/7 nursing care.'],
+            ['icon' => 'M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z', 'title' => 'Diagnostic Lab', 'desc' => 'Advanced testing equipment and quick results.'],
+            ['icon' => 'M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z', 'title' => 'Emergency Unit', 'desc' => 'Fully equipped for urgent medical situations.'],
+            ['icon' => 'M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z', 'title' => 'Pharmacy Store', 'desc' => 'Wide range of medicines and health products.'],
+            ['icon' => 'M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z', 'title' => 'Digital Records', 'desc' => 'Secure electronic health records access.'],
+            ['icon' => 'M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064', 'title' => 'Rehabilitation', 'desc' => 'Physical therapy and recovery programs.'],
+        ];
+        @endphp
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            @foreach ($facilities as $index => $facility)
+                <div class="group bg-slate-50 rounded-2xl p-6 border border-slate-100 card-hover" data-aos="fade-up" data-aos-delay="{{ $index * 80 }}">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-14 h-14 rounded-xl bg-white shadow-md flex items-center justify-center flex-shrink-0 group-hover:bg-teal-500 transition-colors duration-300">
+                            <svg class="w-7 h-7 text-teal-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="{{ $facility['icon'] }}"></path></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold text-slate-800 mb-1">{{ $facility['title'] }}</h3>
+                            <p class="text-slate-600 text-sm">{{ $facility['desc'] }}</p>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+</section>
+
 <!-- Medical Team -->
 <section class="py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
