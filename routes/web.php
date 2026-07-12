@@ -15,6 +15,7 @@ Route::view('/about', 'about')->name('about');
 Route::view('/services', 'services')->name('services');
 Route::view('/packages', 'packages')->name('packages');
 Route::view('/contact', 'contact')->name('contact');
+Route::view('/book-appointment', 'book-appointment')->name('book-appointment');
 
 /* Authenticated routes */
 Route::middleware(['auth', 'verified'])->group(function () {
