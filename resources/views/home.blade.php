@@ -107,6 +107,33 @@
     </div>
 </section>
 
+<!-- Left Content, Right Image -->
+<section class="py-24 bg-slate-50 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div data-aos="fade-right">
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-teal-100 text-teal-700 text-sm font-medium mb-4">Digital Healthcare</div>
+                <h2 class="text-4xl font-bold text-slate-900 mb-6">Healthcare at Your <span class="gradient-text">Fingertips</span></h2>
+                <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                    Access your prescriptions, book appointments, and consult with doctors from anywhere using our secure digital platform.
+                </p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center text-slate-700"><svg class="w-5 h-5 text-teal-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Online appointment booking</li>
+                    <li class="flex items-center text-slate-700"><svg class="w-5 h-5 text-teal-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Digital prescription records</li>
+                    <li class="flex items-center text-slate-700"><svg class="w-5 h-5 text-teal-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Secure video consultations</li>
+                </ul>
+                <a href="{{ route('book-appointment') }}" class="inline-flex items-center px-6 py-3 btn-primary text-white rounded-full font-semibold">Book Online</a>
+            </div>
+            <div class="relative" data-aos="fade-left">
+                <div class="absolute -bottom-4 -right-4 w-full h-full bg-teal-200 rounded-3xl"></div>
+                <div class="relative bg-gradient-to-br from-teal-500 to-cyan-600 rounded-3xl p-12 min-h-[400px] flex items-center justify-center">
+                    <svg class="w-48 h-48 text-white/90 float-animation" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- How It Works -->
 <section class="py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -134,6 +161,38 @@
                     <p class="text-slate-600">{{ $step['desc'] }}</p>
                 </div>
             @endforeach
+        </div>
+    </div>
+</section>
+
+<!-- Right Content, Left Image -->
+<section class="py-24 bg-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="relative order-1 lg:order-1" data-aos="fade-right">
+                <div class="absolute -top-4 -left-4 w-full h-full bg-cyan-200 rounded-3xl"></div>
+                <div class="relative bg-gradient-to-br from-cyan-500 to-blue-600 rounded-3xl p-12 min-h-[400px] flex items-center justify-center">
+                    <svg class="w-48 h-48 text-white/90 float-animation" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+            </div>
+            <div class="order-2 lg:order-2" data-aos="fade-left">
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-cyan-100 text-cyan-700 text-sm font-medium mb-4">Personalized Care</div>
+                <h2 class="text-4xl font-bold text-slate-900 mb-6">We Treat You Like <span class="gradient-text">Family</span></h2>
+                <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                    Every patient receives individualized attention. We take time to understand your concerns and create treatment plans tailored to your needs.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                    <div class="p-4 bg-slate-50 rounded-xl">
+                        <div class="text-2xl font-bold text-cyan-600 mb-1">30+</div>
+                        <div class="text-sm text-slate-600">Medical Specialties</div>
+                    </div>
+                    <div class="p-4 bg-slate-50 rounded-xl">
+                        <div class="text-2xl font-bold text-cyan-600 mb-1">1:1</div>
+                        <div class="text-sm text-slate-600">Dedicated Consultation</div>
+                    </div>
+                </div>
+                <a href="{{ route('about') }}" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-full font-semibold hover:shadow-lg transition-all">About Us</a>
+            </div>
         </div>
     </div>
 </section>
@@ -314,6 +373,33 @@
     </div>
 </section>
 
+<!-- Left Content, Right Image -->
+<section class="py-24 bg-slate-50 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div data-aos="fade-right">
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-emerald-100 text-emerald-700 text-sm font-medium mb-4">Safety First</div>
+                <h2 class="text-4xl font-bold text-slate-900 mb-6">A Safe Environment for <span class="gradient-text">Every Patient</span></h2>
+                <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                    Our facilities follow strict hygiene protocols and international safety standards to ensure a clean, comfortable, and secure experience.
+                </p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center text-slate-700"><svg class="w-5 h-5 text-emerald-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Regular sanitization & sterilization</li>
+                    <li class="flex items-center text-slate-700"><svg class="w-5 h-5 text-emerald-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Infection control measures</li>
+                    <li class="flex items-center text-slate-700"><svg class="w-5 h-5 text-emerald-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Comfortable waiting areas</li>
+                </ul>
+                <a href="{{ route('services') }}" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-emerald-500 to-teal-600 text-white rounded-full font-semibold hover:shadow-lg transition-all">Our Standards</a>
+            </div>
+            <div class="relative" data-aos="fade-left">
+                <div class="absolute -bottom-4 -right-4 w-full h-full bg-emerald-200 rounded-3xl"></div>
+                <div class="relative bg-gradient-to-br from-emerald-500 to-teal-600 rounded-3xl p-12 min-h-[400px] flex items-center justify-center">
+                    <svg class="w-48 h-48 text-white/90 float-animation" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Medical Team -->
 <section class="py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -341,6 +427,38 @@
                     <p class="text-{{ $doctor['color'] }}-600 text-sm">{{ $doctor['role'] }}</p>
                 </div>
             @endforeach
+        </div>
+    </div>
+</section>
+
+<!-- Right Content, Left Image -->
+<section class="py-24 bg-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="relative order-1 lg:order-1" data-aos="fade-right">
+                <div class="absolute -top-4 -left-4 w-full h-full bg-blue-200 rounded-3xl"></div>
+                <div class="relative bg-gradient-to-br from-blue-500 to-indigo-600 rounded-3xl p-12 min-h-[400px] flex items-center justify-center">
+                    <svg class="w-48 h-48 text-white/90 float-animation" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                </div>
+            </div>
+            <div class="order-2 lg:order-2" data-aos="fade-left">
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4">Continuous Support</div>
+                <h2 class="text-4xl font-bold text-slate-900 mb-6">We Support You at <span class="gradient-text">Every Step</span></h2>
+                <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                    From diagnosis to recovery, our medical team stays connected with you. We provide follow-up consultations, medication guidance, and lifestyle recommendations.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                    <div class="p-4 bg-slate-50 rounded-xl">
+                        <div class="text-2xl font-bold text-blue-600 mb-1">24/7</div>
+                        <div class="text-sm text-slate-600">Support Available</div>
+                    </div>
+                    <div class="p-4 bg-slate-50 rounded-xl">
+                        <div class="text-2xl font-bold text-blue-600 mb-1">Free</div>
+                        <div class="text-sm text-slate-600">Follow-up Calls</div>
+                    </div>
+                </div>
+                <a href="{{ route('contact') }}" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 text-white rounded-full font-semibold hover:shadow-lg transition-all">Contact Support</a>
+            </div>
         </div>
     </div>
 </section>
@@ -381,6 +499,33 @@
     </div>
 </section>
 
+<!-- Left Content, Right Image -->
+<section class="py-24 bg-slate-50 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div data-aos="fade-right">
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-rose-100 text-rose-700 text-sm font-medium mb-4">Community Trust</div>
+                <h2 class="text-4xl font-bold text-slate-900 mb-6">Thousands Trust Us With Their <span class="gradient-text">Health</span></h2>
+                <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                    Our patients are at the heart of everything we do. Their positive experiences inspire us to keep improving and delivering exceptional healthcare.
+                </p>
+                <ul class="space-y-3 mb-8">
+                    <li class="flex items-center text-slate-700"><svg class="w-5 h-5 text-rose-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> 50,000+ happy patients</li>
+                    <li class="flex items-center text-slate-700"><svg class="w-5 h-5 text-rose-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> 4.9/5 average rating</li>
+                    <li class="flex items-center text-slate-700"><svg class="w-5 h-5 text-rose-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Recommended by local doctors</li>
+                </ul>
+                <a href="{{ route('book-appointment') }}" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-rose-500 to-pink-600 text-white rounded-full font-semibold hover:shadow-lg transition-all">Join Our Community</a>
+            </div>
+            <div class="relative" data-aos="fade-left">
+                <div class="absolute -bottom-4 -right-4 w-full h-full bg-rose-200 rounded-3xl"></div>
+                <div class="relative bg-gradient-to-br from-rose-500 to-pink-600 rounded-3xl p-12 min-h-[400px] flex items-center justify-center">
+                    <svg class="w-48 h-48 text-white/90 float-animation" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Health Tips / Blog -->
 <section class="py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -412,6 +557,38 @@
                     </div>
                 </div>
             @endforeach
+        </div>
+    </div>
+</section>
+
+<!-- Right Content, Left Image -->
+<section class="py-24 bg-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="relative order-1 lg:order-1" data-aos="fade-right">
+                <div class="absolute -top-4 -left-4 w-full h-full bg-amber-200 rounded-3xl"></div>
+                <div class="relative bg-gradient-to-br from-amber-500 to-orange-600 rounded-3xl p-12 min-h-[400px] flex items-center justify-center">
+                    <svg class="w-48 h-48 text-white/90 float-animation" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                </div>
+            </div>
+            <div class="order-2 lg:order-2" data-aos="fade-left">
+                <div class="inline-flex items-center px-4 py-2 rounded-full bg-amber-100 text-amber-700 text-sm font-medium mb-4">Prevention Focus</div>
+                <h2 class="text-4xl font-bold text-slate-900 mb-6">Prevention is Better Than <span class="gradient-text">Cure</span></h2>
+                <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                    Stay ahead of health issues with regular checkups, screenings, and expert wellness advice. Our preventive care programs help you maintain a healthier life.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                    <div class="p-4 bg-slate-50 rounded-xl">
+                        <div class="text-2xl font-bold text-amber-600 mb-1">Annual</div>
+                        <div class="text-sm text-slate-600">Health Packages</div>
+                    </div>
+                    <div class="p-4 bg-slate-50 rounded-xl">
+                        <div class="text-2xl font-bold text-amber-600 mb-1">Expert</div>
+                        <div class="text-sm text-slate-600">Wellness Guides</div>
+                    </div>
+                </div>
+                <a href="{{ route('packages') }}" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-amber-500 to-orange-600 text-white rounded-full font-semibold hover:shadow-lg transition-all">View Packages</a>
+            </div>
         </div>
     </div>
 </section>
