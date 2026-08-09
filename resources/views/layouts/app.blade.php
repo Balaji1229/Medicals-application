@@ -21,6 +21,8 @@
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
 
+            <x-toast-container top="top-20" />
+
             <!-- Page Heading -->
             @isset($header)
                 <header class="bg-white shadow">

@@ -60,6 +60,8 @@
     <body class="font-sans antialiased text-slate-600 bg-white">
         @include('layouts.public-navigation')
 
+        <x-toast-container top="top-24" />
+
         <main>
             @yield('content')
         </main>

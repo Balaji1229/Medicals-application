@@ -145,7 +145,9 @@
 
     document.getElementById('appointmentForm').addEventListener('submit', function(e) {
         e.preventDefault();
-        alert('Thank you! Your appointment request has been received. We will contact you shortly to confirm.');
+        showToast('Thank you! Your appointment request has been received. We will contact you shortly to confirm.', 'success');
+        this.reset();
+        document.getElementById('testOptions').classList.add('hidden');
     });
 </script>
 @endsection
